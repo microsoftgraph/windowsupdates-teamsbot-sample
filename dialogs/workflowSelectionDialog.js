@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
 const { ChoicePrompt, OAuthPrompt, WaterfallDialog } = require('botbuilder-dialogs');
 const { WORKFLOW_SELECTION_DIALOG, OAUTH_PROMPT, CHOICE_PROMPT, 
     WORKFLOW_COMMANDS, CREATE_DEPLOYMENT_DIALOG, 

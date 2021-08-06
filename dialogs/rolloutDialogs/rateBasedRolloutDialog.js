@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
 const { RATE_BASED_DIALOG, NUMBER_PROMPT } = require('../dialogConstants');
 const { NumberPrompt, ComponentDialog, WaterfallDialog } = require('botbuilder-dialogs');
 

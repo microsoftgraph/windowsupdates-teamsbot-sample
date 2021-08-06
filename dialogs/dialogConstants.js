@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
 // Content Types
 module.exports.FEATURE_UPDATE = 'Feature Update';
 module.exports.EXP_SECURITY_UPDATE = 'Expedited Security Update';

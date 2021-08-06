@@ -1,6 +1,8 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
 const { DATE_BASED_DIALOG, NUMBER_PROMPT, VALIDATE_DATETIME_DIALOG, TEXT_PROMPT } = require('../dialogConstants');
 const { NumberPrompt, ComponentDialog, WaterfallDialog, TextPrompt } = require('botbuilder-dialogs');
-const { CardFactory, MessageFactory } = require('botbuilder');
 const { ValidateDateTimeDialog } = require('../validateDatetimeDialog');
 
 const WATERFALL_DIALOG = 'DateBasedWaterfallDialog';

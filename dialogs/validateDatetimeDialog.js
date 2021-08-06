@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
 const { DATE_TIME_PROMPT, VALIDATE_DATETIME_DIALOG } = require("./dialogConstants");
 const { WaterfallDialog, ComponentDialog, DateTimePrompt } = require('botbuilder-dialogs');
 

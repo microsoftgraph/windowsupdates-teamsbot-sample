@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
 const { SimpleGraphClient } = require('./simple-graph-client');
 const { EXP_SECURITY_UPDATE, FEATURE_UPDATE, ADD_DEVICES, REMOVE_DEVICES } = require('./dialogConstants');
 /**

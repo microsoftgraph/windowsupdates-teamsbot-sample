@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
 const { ConfirmPrompt, DialogSet, DialogTurnStatus, OAuthPrompt, WaterfallDialog, TextPrompt, ComponentDialog, DateTimePrompt } = require('botbuilder-dialogs');
 const { CONFIRM_PROMPT, CREATE_XS_DEPLOYMENT_DIALOG, OAUTH_PROMPT, TEXT_PROMPT, EXP_SECURITY_UPDATE } = require('./dialogConstants');
 const WATERFALL_DIALOG = 'WATERFALL_DIALOG';

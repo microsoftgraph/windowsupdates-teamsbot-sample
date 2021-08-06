@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
 const { WaterfallDialog, ComponentDialog, TextPrompt, OAuthPrompt } = require('botbuilder-dialogs');
 const { TEXT_PROMPT, OAUTH_PROMPT, DELETE_DEPLOYMENT_DIALOG, CONFIRM_PROMPT } = require("./dialogConstants");
 const { GraphHelpers } = require('./graph-helpers');

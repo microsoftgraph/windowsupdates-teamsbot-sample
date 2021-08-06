@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
 const { ChoicePrompt, ConfirmPrompt, DialogSet, DialogTurnStatus, OAuthPrompt, WaterfallDialog, TextPrompt, ComponentDialog } = require('botbuilder-dialogs');
 const { CHOICE_PROMPT, OAUTH_PROMPT, CONFIRM_PROMPT, TEXT_PROMPT, CREATE_FU_DEPLOYMENT_DIALOG, FEATURE_UPDATE } = require('./dialogConstants');
 const { ROLLOUT_OPTIONS, NONE, SET_START, RATE_BASED, RATE_BASED_WITH_START, DATE_BASED, CANCEL,
