@@ -1,0 +1,61 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "<<YOUR-MICROSOFT-APP-ID>> ",
+  "packageName": "com.microsoft.teams.samples",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl": "https://example.azurewebsites.net",
+    "privacyUrl": "https://example.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://example.azurewebsites.net/termsofuse"
+  },
+  "icons": {
+    "color": "icon-color.png",
+    "outline": "icon-outline.png"
+  },
+  "name": {
+    "short": "WUfB DS Teams Chat Bot",
+    "full": "Windows Update for Business Deployment Service Teams Chat Bot"
+  },
+  "description": {
+    "short": "Teams Chat Bot for making calls to Windows Update endpoint in Microsoft Graph",
+    "full": "Teams Chat Bot for making calls to Windows Update endpoint in Microsoft Graph"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "<<YOUR-MICROSOFT-APP-ID>> ",
+      "scopes": [
+        "personal"
+      ],
+      "supportsFiles": true,
+      "isNotificationOnly": false, 
+      "commandLists":[
+        {
+          "scopes":[
+            "personal"
+          ],
+          "commands":[
+            {
+              "title":"Get Started",
+              "description":"Displays a welcome message and further available actions"
+            },
+            {
+              "title":"Logout",
+              "description":"Signs out of bot "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "token.botframework.com",
+    "*.ngrok.io"
+  ]
+}
